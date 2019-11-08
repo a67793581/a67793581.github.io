@@ -80,7 +80,7 @@ title:      定时器 你真的会使用吗？
 subtitle:   iOS定时器详解
 date:       2016-12-13
 author:     Carlo
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-universe.jpg
 catalog: 	 true
 tags:
     - iOS
@@ -100,7 +100,7 @@ tags:
 # Sidebar settings
 sidebar: true  #添加侧边栏
 sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-Carlo.jpg     #你的大头贴，请使用绝对地址.注意：名字区分大小写！后缀名也是
+sidebar-avatar: /img/about-avatar.jpg     #你的大头贴，请使用绝对地址.注意：名字区分大小写！后缀名也是
 ```
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap栅格系统 <http://v3.bootcss.com/css/>
