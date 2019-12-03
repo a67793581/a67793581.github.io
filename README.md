@@ -80,7 +80,7 @@ title:      定时器 你真的会使用吗？
 subtitle:   iOS定时器详解
 date:       2016-12-13
 author:     Carlo
-header-img: img/post-bg-universe.jpg
+header-img: img/post-bg-default.jpg
 catalog: 	 true
 tags:
     - iOS

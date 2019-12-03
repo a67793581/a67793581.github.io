@@ -1,7 +1,7 @@
 # Site settings
 title: Carlo Blog
 SEOTitle: Carlo的博客 | Carlo Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-default.jpg
 email: jiangbingjie1218@gmail.com
 description: "这是一位小人物的无聊见闻记录."
 keyword: "Carlo, Carlo Blog, Carlo的博客, jiangbingjie, 蒋炳杰, iOS, Apple, iPhone, php, go, golang, mysql, java, nginx, apache"
