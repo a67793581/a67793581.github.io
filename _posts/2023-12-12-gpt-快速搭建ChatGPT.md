@@ -225,7 +225,6 @@ tags:
            uvicorn.run(app, host='0.0.0.0', port=8000, workers=1)
             
        ```
-
    - 服务端开启服务：![11](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/11.png)
    - ```shell 
      python openai_api.py
