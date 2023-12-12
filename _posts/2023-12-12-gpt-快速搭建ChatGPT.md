@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      2023-12-12-gpt-快速搭建ChatGPT
-subtitle:   
+subtitle:   最近了解到高性能应用服务HAI,可以快速体验ChatGLM这款新型对话模型。操作步骤很简单,先在官网申请账号,等审核通过后在控制台启动ChatGLM实例。待创建完成就能通过Web UI跟它交流了。  为了方便大家搭建ChatGLM的API,我在文章中也详细介绍了如何使用Cloud Studio快速建站。只需要Fork现成的ChatGPT项目,修改几项配置,就可以跑起来开发调试。过程很顺利。  记得使用完及时销毁实例,免费额度有限,避免不必要支付。有问题欢迎在文末评论交流!
 date:       2023-12-12
 author:     Carlo
 header-img: img/post-bg-default.jpg
