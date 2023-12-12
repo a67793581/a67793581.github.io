@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      2023-12-12-gpt-快速搭建ChatGPT
-subtitle:   快速搭建ChatGPT
+subtitle:   
 date:       2023-12-12
 author:     Carlo
 header-img: img/post-bg-default.jpg
