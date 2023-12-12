@@ -14,7 +14,7 @@ tags:
  最近了解到高性能应用服务HAI,可以快速体验ChatGLM这款新型对话模型. 现在跟着我的节奏一起实现自己的gpt服务吧!
 ## 正文开始
 1. 申请高性能应用服务 HAI
-   - 点击链接进入高性能应用服务 HAI
+   - [点击链接](https://cloud.tencent.com/product/hai)进入高性能应用服务 HAI
      -  申请体验资格 ![1](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/1.png)
    - 等待审核通过后，进入高性能应用服务 HAI 
      - 点击新建 ![2](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/2.png)
