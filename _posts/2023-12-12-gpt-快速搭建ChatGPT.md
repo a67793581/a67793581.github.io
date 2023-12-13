@@ -22,10 +22,8 @@ tags:
      - 温馨提示：如果没有进阶型的算力方案（2.41元/小时），建议您购买基础型的算力方案（0.88元/小时），并在创建成功后参考实验过程中关闭 、重新开启 webui 功能的命令，以提高服务器的性能，加速您完成实验的体验！
      - 等待创建完成(预计等待3-8分钟，等待时间不计费)
    - 创建完成 查看相关状态 ![4](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/4.png)
-
    - 选择chatglm2_gradio进入WebUI页面  
    - 启动高性能应用服务HAI配置的ChatGLM2-6B WebUI进行简单的对话 ![5](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/5.png)
-
 2. 高性能应用服务HAI快速为开发者提供ChatGLM2-6B API服务
    - 在算力管理页面，选择进入jupyter_lab页面  ![6](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/6.png)
    - 选择终端命令 ![7](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/7.png)
@@ -235,9 +233,16 @@ tags:
    - 等待数秒后，工作空间创建完毕 ![15](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/15.png)
    - Fork完成后，选择.env.template文件 ![16](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/16.png)
    - 修改配置信息如下： ![17](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/17.png)![18](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/18.png)
+     - CODE为空 PROXY_URL和BASE_URL为你的服务器地址和端口
    - 修改文件后缀名为.env ![19](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/19.png)
    - 安装依赖 ![20](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/20.png)
+   - ```shell 
+     npm install
+     ```
    - 依赖安装完成后，输入命令开启服务 ![21](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/21.png)
+   - ```shell 
+     yarn run
+     ```
      - 点击端口，可使用浏览器或标签页两种方式运行项目
    - web浏览器测试： ![22](https://a67793581.github.io/img/2023-12-12-gpt-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAChatGPT/22.png)
      - 服务端可查看相关的请求记录
