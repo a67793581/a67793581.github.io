@@ -7,7 +7,7 @@ description: "这是一位小人物的无聊见闻记录." # 随便说点，描�
 keyword: "Carlo, Carlo Blog, Carlo的博客, jiangbingjie, 蒋炳杰, iOS, Apple, iPhone, php, go, golang, mysql, java, nginx, apache"
 url: "https://a67793581.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/a67793581/a67793581.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
