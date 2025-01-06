@@ -37,26 +37,15 @@
 ### 环境
 
 如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题，对主题的修改也能实时展示（需要强刷浏览器）。
-
+```bash
+#安装命令
+gem install jekyll bundler
+```
 
 
 ### 开始
 
 你可以通用修改 `_config.yml`文件来轻松的开始搭建自己的博客:
-
-```
-# Site settings
-title: Carlo Blog                    # 你的博客网站标题
-SEOTitle: Carlo的博客 | Carlo Blog		# SEO 标题
-description: "Hey"	   	   # 随便说点，描述一下
-
-# SNS settings      
-github_username: a67793581     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
-
-# Build settings
-# paginate: 10              # 一页你准备放几篇文章
-```
 
 Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
 
@@ -235,16 +224,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 但是需要注意的是本模板的标题是**白色**的，所以背景色要设置为**灰色**或者**黑色**，总之深色系就对了。当然你还可以自定义修改字体颜色，总之，用github pages就是可以完全的个性定制自己的博客。
 
-### SEO Title
-
-我的博客标题是 **“Carlo Blog”** 但是我想要在搜索的时候显示 **“Carlo的博客 | Carlo Blog”** ，这个就需要 SEO Title 来定义了。
-
-其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
-
 ### 关于收到"Page Build Warning"的 Email
-
-由于jekyll升级到3.0.x,对原来的 pygments 代码高亮不再支持，现只支持一种-rouge，所以你需要在 `_config.yml`文件中修改`highlighter: rouge`.另外还需要在`_config.yml`文件中加上`gems: [jekyll-paginate]`.
-
 同时,你需要更新你的本地 jekyll 环境.
 
 使用`jekyll server`的同学需要这样：

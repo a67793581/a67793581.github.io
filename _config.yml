@@ -1,9 +1,9 @@
 # Site settings
-title: Carlo Blog
-SEOTitle: Carlo的博客 | Carlo Blog
+title: Carlo Blog # 你的博客网站标题
+SEOTitle: Carlo的博客 | Carlo Blog 	# SEO 标题
 header-img: img/post-bg-default.jpg
 email: jiangbingjie1218@gmail.com
-description: "这是一位小人物的无聊见闻记录."
+description: "这是一位小人物的无聊见闻记录." # 随便说点，描述一下
 keyword: "Carlo, Carlo Blog, Carlo的博客, jiangbingjie, 蒋炳杰, iOS, Apple, iPhone, php, go, golang, mysql, java, nginx, apache"
 url: "https://a67793581.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -16,7 +16,7 @@ sidebar-avatar: /img/about-avatar.jpg      # use absolute URL, seeing it's used 
 
 
 
-# SNS settings
+# SNS settings 社交账号设置
 RSS: false
 # weibo_username:     a67793581
 # zhihu_username:     a67793581
@@ -31,15 +31,13 @@ github_username:    a67793581
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-paginate: 10
+paginate: 10 # 一页你准备放几篇文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -99,8 +97,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "爱酷饭",
-        href: "http://aiku.fun"
+        title: "爱聚娱乐",
+        href: "http://aiju.fun"
     },{
         title: "简书·carlo",
         href: "http://www.jianshu.com/u/7de6d9bfb8d2"
