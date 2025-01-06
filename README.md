@@ -50,11 +50,14 @@ gem install jekyll bundler
 Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
 
 ### 撰写博文
-
 要发表的文章一般以 **Markdown** 的格式放在这里`_posts/`，你只要看看这篇模板里的文章你就立刻明白该如何设置。
-
-yaml 头文件长这样:
-
+- layout: 指定文章使用的布局模板，这里是post，意味着这篇文章将使用为博客文章设计的模板。
+- title: 文章的标题，这里是“定时器 你真的会使用吗？”。
+- subtitle: 文章的副标题，这里是“iOS定时器详解”。
+- date: 文章的发布日期，这里是2016年12月13日。
+- author: 文章的作者，这里是Carlo。
+- header-img: 文章顶部显示的封面图片路径，这里是img/post-bg-default.jpg。
+- catalog: 是否启用文章目录，默认为true，表示会自动生成文章目录。
 ```
 ---
 layout:     post
@@ -65,10 +68,9 @@ author:     Carlo
 header-img: img/post-bg-default.jpg
 catalog: 	 true
 tags:
-    - iOS
-    - 定时器
+    - 标签1
+    - 标签2
 ---
-
 ```
 
 ### 侧边栏
